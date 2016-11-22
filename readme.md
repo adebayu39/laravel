@@ -13,10 +13,12 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 ## How To Install.
 
 1. Clone/Download this repository into your computer.
-2. Make new file named .env, for example there is .env.example file
-3. You must setting database on .env file with your database setting and make sure you create one database for this application
-4. run 'php artisan migrate' for migrating database in this application to your database
-4. run 'php artisan serve' and your application is ready to use
+2. run 'composer install'
+3. Make new file named .env, for example there is .env.example file
+4. For 'APP_KEY' run php artisan key:generate, copy the key betwen [ ]
+5. Setting database on .env file with your database setting and make sure you create one database for this application
+6. run 'php artisan migrate' for migrating database in this application to your database
+7. run 'php artisan serve' and your application is ready to use
 
 ## Official Documentation
 
